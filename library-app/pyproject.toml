@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 79
+exclude = '''
+^(
+    .*app/database/migrations/versions/.*
+    |.*data/db/.*
+    |.*venv/.*
+)
+'''
